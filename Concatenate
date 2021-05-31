@@ -1,0 +1,5 @@
+import numpy as np
+N,M,P = map(int,input().split())
+n = np.array([input().strip().split() for _ in range(N)], int)
+m = np.array([input().strip().split() for _ in range(M)], int)
+print(np.concatenate((n,m),axis=0))
