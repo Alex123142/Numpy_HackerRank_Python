@@ -1,0 +1,4 @@
+import numpy as np
+N,M = map(int,input().split())
+l = np.array([input().split() for _ in range(N)],dtype=np.int)
+print(np.prod(np.sum(l,axis=0)))
