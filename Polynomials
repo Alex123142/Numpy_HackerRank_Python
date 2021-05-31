@@ -1,0 +1,4 @@
+import numpy as np
+P_coef = np.array(input().split(),dtype=np.float)
+x = float(input())
+print(np.polyval(P_coef,x))
