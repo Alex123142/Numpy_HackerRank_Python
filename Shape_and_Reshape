@@ -1,0 +1,4 @@
+import numpy as np
+l1 = np.array(list(map(int,input().split())))
+l1.shape = (3,3)
+print(l1)
